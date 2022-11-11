@@ -1,0 +1,115 @@
+
+.holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    padding: 50px;
+    background-image: url(../img/back_1.png);
+}
+
+.holder__title{
+    color: var(--text-color);
+    text-align: center;
+    font-size: 50px;
+    margin: 80px auto;
+}
+
+.holder__offer{
+    color:var(--my-color);
+    font-weight: bold;
+
+
+}
+.our-offers__btn,
+.holder__btn{
+    background-color: var(--title-color);
+    color: var(--bg-color);
+    font-weight: bold;
+}
+
+.features__about-company{
+    display: flex;
+    align-items: center;
+}
+
+.features__experience{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.features__text{
+    margin-top: 0px;
+    padding: 5px;
+}
+
+.features__founders p{
+    text-align: justify;
+}
+
+.wrapper-advantage{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.advantage{
+    display: flex;
+}
+
+.advantage__small-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: -30px;
+    width: 200px;
+    height: 100px;
+    font-size: 50px;
+    border-radius: 50%;
+}
+
+.wrapper-advantage{
+    background-image: url(../img/back_2.png);
+    margin: 50px;
+    padding: 50px;
+    
+
+}
+
+.advantage__title{
+    display: flex;
+    text-align: left;
+    color: var(--title-color);
+}
+
+
+.advantage__desc{
+    margin-top: -30px;
+    text-align: justify;
+    color: var(--my-color);
+}
+
+.our-offers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.our-offers__product{
+    border: 5px solid var(--bg-color);
+    align-items: center;
+    font-size: 15px;
+    margin: 30px;
+    text-align: center;    
+}
+
+.our-offers__subject{
+    background-color: var(--title-color);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.our-offers__desc{
+    text-align: justify;
+
+}
