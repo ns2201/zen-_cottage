@@ -123,16 +123,18 @@
 
 .our-offers{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    margin: 40px 10px;
 }
 
 .our-offers__product{
-    border: 5px solid var(--my-color);
+    border: 1px dashed var(--light-color);
     align-items: center;
     font-size: 15px;
-    margin: 30px;
+    margin: 5px;
     text-align: center; 
-    border-radius: 30px;   
+    border-radius: 30px;  
+    padding: 20px 5px;
 }
 
 .our-offers__subject{
@@ -142,7 +144,22 @@
     font-weight: bold;
 }
 
+.our-offers__price{
+    padding: 5px;
+}
+
+.our-offers__img{
+    padding: 5px;
+    border-radius: 40%;   
+    width: 300px;
+    height: 200px;
+
+}
+
+
 .our-offers__desc{
     text-align: justify;
+    font-size: 13px;
+    padding: 10px;
 
 }
