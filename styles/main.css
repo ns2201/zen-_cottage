@@ -18,30 +18,59 @@
 .holder__offer{
     color:var(--my-color);
     font-weight: bold;
-
-
+    padding: 50px;
 }
+
+
+.holder__input{
+    background: var(--light-color);
+    box-sizing: border-box;
+    border: 1px solid var(--title-color);
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--bg-color-);
+    padding: 12px 50px;
+    margin-right: 10px;
+}
+
+
 .our-offers__btn,
 .holder__btn{
-    background-color: var(--title-color);
+    background: var(--title-color);
     color: var(--bg-color);
     font-weight: bold;
+    border-radius: 8px;
+    padding: 12px 30px;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    border: 0;
+    margin-top: 24px;
 }
 
+
 .features__about-company{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 0px 300px;
     align-items: center;
+    text-align: start;
 }
 
 .features__experience{
     display: flex;
-    flex-direction: column;
-    margin: auto;
+    flex-direction: row;
+}
+
+.features__founders{
+    padding: 0px 0px 0px 150px;
 }
 
 .features__text{
     margin-top: 0px;
     padding: 5px;
+    text-align: left;
 }
 
 .features__founders p{
@@ -49,10 +78,15 @@
 }
 
 .wrapper-advantage{
+    background-image: url(../img/back_2.png);
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: 50px 150px;
+    padding: 50px;
 
 }
+
 
 .advantage{
     display: flex;
@@ -62,32 +96,29 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: -30px;
-    width: 200px;
-    height: 100px;
+    margin: 30px;
+    width: 250px;
+    height: 150px;
     font-size: 50px;
     border-radius: 50%;
-}
-
-.wrapper-advantage{
-    background-image: url(../img/back_2.png);
-    margin: 50px;
-    padding: 50px;
-    
-
 }
 
 .advantage__title{
     display: flex;
     text-align: left;
     color: var(--title-color);
+    margin-top: 30px;
 }
 
 
 .advantage__desc{
-    margin-top: -30px;
     text-align: justify;
     color: var(--my-color);
+    margin-top: 20px;
+}
+
+.iframe{
+    border: 0px;
 }
 
 .our-offers{
@@ -96,15 +127,17 @@
 }
 
 .our-offers__product{
-    border: 5px solid var(--bg-color);
+    border: 5px solid var(--my-color);
     align-items: center;
     font-size: 15px;
     margin: 30px;
-    text-align: center;    
+    text-align: center; 
+    border-radius: 30px;   
 }
 
 .our-offers__subject{
-    background-color: var(--title-color);
+    color: var(--title-color);
+    font-weight: bold;
     font-size: 30px;
     font-weight: bold;
 }

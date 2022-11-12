@@ -1,8 +1,9 @@
 
 .footer {
     background-image: url(../img/bg.webp);
-    padding: 10px 15px;
     margin-top: 15px;
+    padding-bottom: 0;
+    right: 0;
 }
 
 .footer-link {
@@ -10,6 +11,7 @@
     padding: 0px 10px;
     text-decoration: none;
     font-size: 15px;
+    color: var(--text-color);
 }
 
 .footer-link:hover{
