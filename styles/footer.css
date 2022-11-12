@@ -1,9 +1,13 @@
-
-.footer {
+.footer{
+    margin: auto;
+    bottom: 0;
+    width: 100%; 
     background-image: url(../img/bg.webp);
-    margin-top: 15px;
-    padding-bottom: 0;
-    right: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 20px;
+
 }
 
 .footer-link {
@@ -11,7 +15,7 @@
     padding: 0px 10px;
     text-decoration: none;
     font-size: 15px;
-    color: var(--text-color);
+    color: var(--title-color);
 }
 
 .footer-link:hover{
@@ -21,8 +25,7 @@
 .footer__list,
 .footer__span {
     display: flex;
-    justify-content: flex-end;
-    color: var(--text-color);
+    justify-content: space-around;
+    color: var(--title-color);
 }
-
 

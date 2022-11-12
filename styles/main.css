@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px;
+    padding: 75px;
     background-image: url(../img/background.png);
 }
 
@@ -24,6 +24,7 @@
     font-size: 40px;
 }
 
+.contacts__input,
 .holder__input{
     background: var(--light-color);
     box-sizing: border-box;
@@ -33,9 +34,10 @@
     font-size: 16px;
     color: var(--bg-color-);
     padding: 12px 50px;
-    margin-right: 10px;
+    margin: 10px;
 }
 
+.contacts__btn,
 .request-container__btn,
 .our-offers__btn,
 .holder__btn{
@@ -177,8 +179,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 70px 600px;
-    padding: 100px;
+    margin: 70px 300px;
+    padding: 70px;
     text-align: center;
     font-size: 25px;
     color: var(--bg-color);
@@ -191,4 +193,24 @@
 .request-container__text{
     margin-bottom: 20px;
     color: var(--light-color)
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.contacts__title {
+    color: var(--title-color);
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.contacts__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
 }
