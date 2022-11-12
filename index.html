@@ -29,9 +29,10 @@
   <section class="holder">
     <h1 class="holder__title"><b>ZEN</b> Cottages</h1>
     <p class="holder__offer">We can build your dream home.</p>
+    <p class="holder__request"><b>Request free consultation</b></p>
     <form id="form" action="https://www.freecodecamp.com/email-submit">
-      <input class="holder__input" name="email" id="email" type="email" placeholder="Enter email address" required />
-      <input class="holder__btn" id="submit" type="submit" value="GET STARTED" />
+      <input class="holder__input" name="email" id="email" type="email" placeholder="Enter your email" required />
+      <input class="holder__btn" id="submit" type="submit" value="SEND" />
     </form>
   </section>
 
@@ -106,6 +107,12 @@
         allowfullscreen></iframe>
     </section>
 
+    <section class="select-home">
+      <h2 class="select-home__title"><i> Select your future home from the <b> available cottages:</b></i></h2>
+      <span class="select-home__models">Below are the most popular models of our cottages available right now. You can order them by contacting our
+        manager or filling out the form on our website.</span>
+    </section>
+
     <section class="our-offers">
       <div class="our-offers__product">
         <div class="our-offers__subject">ALISE</div>
@@ -113,12 +120,13 @@
           $30000 <br />
           60-90 Days
         </h2>
-        <img class="our-offers__img" src="img/alise.png" alt="the cottage mades steel and glass with futuristic design" />
+        <img class="our-offers__img" src="img/alise.png"
+          alt="the cottage mades steel and glass with futuristic design" />
         <p class="our-offers__desc">
           This cottage is made of steel and glass for those who like the
           modern style, futuristic design, and lots of air and space in
           their homes. The cottage is perfect for permanent living for 3-5
-          persons. 
+          persons.
         </p>
         <button class="our-offers__btn">Select</button>
       </div>
@@ -147,7 +155,7 @@
         <p class="our-offers__desc">
           Living in a tiny home is fun and practical when it's Shast. This
           cottage is designed both for a part-time and permanent living and
-          can accommodate up to 3 people comfortably. 
+          can accommodate up to 3 people comfortably.
         </p>
         <button class="our-offers__btn">Select</button>
       </div>
@@ -164,8 +172,14 @@
         </p>
         <button class="our-offers__btn">Select</button>
       </div>
-
     </section>
+
+    <div class="request-container">
+      <h2 class="request-container__title">Schedule a <b>consultation</b></h2>
+      <p class="request-container__text">Press the button to have <br> a pre-construction <br> consultation with our experts!</p>
+      <button class="request-container__btn" id="open-form-modal-btn">Schedule a consultation</button>
+    </div> 
+
   </main>
 
   <footer class="footer">
