@@ -112,6 +112,7 @@
 
 .features__founders{
     padding: 0px 0px 0px 150px;
+    font-size: 22px;
 }
 
 
@@ -210,12 +211,12 @@
 
 .our-offers{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 2vw;
     margin: 40px 10px; 
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
 
     .our-offers{
         display: grid;
@@ -224,13 +225,13 @@
     }  
 }
 
-@media (max-width: 850px) {
+@media (max-width: 900px) {
     .our-offers{
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 700px) {
     .our-offers{
         grid-template-columns: 430px;
         margin: 30px 275px;
