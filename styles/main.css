@@ -7,6 +7,14 @@
     background-image: url(../img/background.png);
 }
 
+/* @media (max-width:570px){
+    .holder{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+} */
+
 .holder__title{
     color: var(--text-color);
     text-align: center;
@@ -22,6 +30,7 @@
 
 .holder__request{
     font-size: 40px;
+    text-align: center;
 }
 
 .contacts__input,
@@ -53,12 +62,45 @@
     margin-top: 24px;
 }
 
+
+.features{
+    margin-top: 20px;
+}
 .features__about-company{
     display: grid;
     grid-template-columns: 1fr 3fr;
-    padding: 60px 300px 20px 300px;
+    padding: 30px 70px;
     align-items: center;
     text-align: start;
+}
+
+@media (max-width:760px){
+    
+    .features__about-company{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: start;
+        padding: 50px;
+    }
+
+
+    .features__text{
+        font-size: 25px;
+        text-align:left;
+        align-items:flex-start;
+    }
+
+    .features__img{
+        width: 100%;
+        align-items: center;
+    } 
+
+    .features__founders{
+        font-size: 20px;
+    }
+
+
 }
 
 .features__experience{
@@ -70,10 +112,12 @@
     padding: 0px 0px 0px 150px;
 }
 
+
 .features__text{
     margin-top: 0px;
     padding: 5px;
-    text-align: left;
+    text-align: center;
+    align-items: center;
 }
 
 .features__founders p{
@@ -85,7 +129,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 50px 150px;
+    margin: 50px;
     padding: 50px;
 }
 
@@ -117,12 +161,35 @@
     margin-top: 20px;
 }
 
-.video__modern-cottage{
+
+.video__modern-cottage {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.video__modern-cottage > iframe {
+    max-width: 560px;
+    width: 100%;
+    border-width: 0;
+}
+/* .video__modern-cottage{
     text-align: center;
+    overflow:hidden;
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0; 
 }
-.iframe{
+
+.video__modern-cottage iframe{
     border: 0px;
-}
+    position:absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+} */
 
 .select-home{
     margin: 50px 30px 30px 30px;
@@ -134,11 +201,18 @@
     padding: 20px 0px;
 }
 
+.select-home{
+    padding: 30px;
+}
+
+
 .our-offers{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    margin: 40px 10px;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    /* grid-gap: 2vw; */
+    margin: 40px 10px; 
 }
+
 
 .our-offers__product{
     border: 1px dashed var(--light-color);
@@ -163,9 +237,12 @@
 
 .our-offers__img{
     padding: 5px;
-    border-radius: 40%;   
-    width: 300px;
-    height: 200px;
+    border-radius: 40%;  
+    width: 80%; 
+    text-align: center; 
+    align-items: center;
+
+
 }
 
 .our-offers__desc{
@@ -180,11 +257,14 @@
     flex-direction: column;
     align-items: center;
     margin: 70px 300px;
-    padding: 70px;
+    padding: 30px;
     text-align: center;
-    font-size: 25px;
+    font-size: 1em;
     color: var(--bg-color);
+    max-width: 100%;
 }
+
+
 .request-container__title{
     color: var(--consult-color);
     margin-bottom: 25px;

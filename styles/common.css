@@ -9,6 +9,7 @@
 body {
     padding: 10px;
     background-color: var(--bg-color);
+    text-align: center;
     
 }
 
@@ -26,15 +27,21 @@ li {
     --my-color: rgb(167, 194, 141);
     --light-color:rgb(233, 225, 225);
     --consult-color:hsl(208, 100%, 97%);
+    scroll-behavior: smooth;
 }
 
 img {
     display: block;
     width: 100%;
-    height: auto;
+    /* height: auto;
+    margin: 0 auto; */
 }
 
 b{
     color: var(--title-color);
 }
 
+.container{
+    min-width: 980px;
+    margin: auto;
+}

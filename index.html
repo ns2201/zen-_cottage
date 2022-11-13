@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <header class="header">
+  <header class="header container">
     <nav class="header-nav">
       <div class="logo">
         <img class="header-img" src="img/logo-zen.svg" alt="logo" />
@@ -26,13 +26,13 @@
     </nav>
   </header>
 
-  <section class="holder">
+  <section class="holder container">
     <h1 class="holder__title"><b>ZEN</b> Cottages</h1>
     <p class="holder__offer">We can build your dream home.</p>
     <p class="holder__request"><b>Request free consultation</b></p>
     <form id="form" action="https://www.freecodecamp.com/email-submit">
       <input class="holder__input" name="email" id="email" type="email" placeholder="Enter your email" required />
-      <input class="holder__btn" id="submit" type="submit" value="SEND" />
+      <input class="holder__btn button" id="submit" type="submit" value="SEND" />
     </form>
   </section>
 
@@ -41,7 +41,7 @@
       <div class="features__about-company" id="about_us">
         <div class="features__experience">
           <img class="features__img" src="img/20_years.svg" alt="20 years of professional experience" />
-          <p class="features__text">years of professional experience</p>
+          <p class="features__text">years of <br> professional <br> experience</p>
         </div>
 
         <div class="features__founders">
@@ -59,6 +59,7 @@
           </p>
         </div>
       </div>
+      </section>
 
       <section class="wrapper-advantage" id="services">
         <div class="advantage">
@@ -101,7 +102,7 @@
     </section>
 
     <section class="video__modern-cottage">
-      <iframe width="1000" height="700" src="https://www.youtube.com/embed/DX6nxJNbsxk" title="YouTube video player"
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/DX6nxJNbsxk" title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
     </section>
@@ -127,7 +128,7 @@
           their homes. The cottage is perfect for permanent living for 3-5
           persons.
         </p>
-        <button class="our-offers__btn">Select</button>
+        <button class="our-offers__btn button">Select</button>
       </div>
       <div class="our-offers__product">
         <div class="our-offers__subject">ALPINE</div>
@@ -142,7 +143,7 @@
           trailer to be handled on the roads with is. It is efficient,
           compact, and ready to go the distance.
         </p>
-        <button class="our-offers__btn">Select</button>
+        <button class="our-offers__btn button">Select</button>
       </div>
       <div class="our-offers__product">
         <div class="our-offers__subject">SHAST</div>
@@ -156,7 +157,7 @@
           cottage is designed both for a part-time and permanent living and
           can accommodate up to 3 people comfortably.
         </p>
-        <button class="our-offers__btn">Select</button>
+        <button class="our-offers__btn button">Select</button>
       </div>
       <div class="our-offers__product">
         <div class="our-offers__subject">MAMOTH</div>
@@ -169,14 +170,14 @@
           The Mammoth cottage is designed to accommodate up to 4 people and is suitable for permanent living. Mammoth
           has full kitchen and bathroom, office workspace, bottom floor sleeping area, and dual lofts.
         </p>
-        <button class="our-offers__btn">Select</button>
+        <button class="our-offers__btn button">Select</button>
       </div>
     </section>
 
     <div class="request-container">
       <h2 class="request-container__title">Schedule a <b>consultation</b></h2>
       <p class="request-container__text">Press the button to have <br> a pre-construction <br> consultation with our experts!</p>
-      <button class="request-container__btn" id="open-form-modal-btn">Schedule a consultation</button>
+      <button class="request-container__btn button" id="open-form-modal-btn">Schedule a consultation</button>
     </div> 
 
     <section class="contacts" id="contact_us">
@@ -188,12 +189,12 @@
           <input class="contacts__input" type="email" placeholder="Email*" name="user-email"
               required>
           <input class="contacts__input" type="text" placeholder="Your message*" name="message">
-          <input class="contacts__btn" type="submit" value="Request a quote">
+          <input class="contacts__btn button" type="submit" value="Request a quote">
       </form>
   </section>
   </main>
 
-  <footer class="footer">
+  <footer class="footer container">
     <ul class="footer__list">
       <li><a class="footer-link" href = "mailto: zencottage@email.com">zencottage@email.com</a></li>
       <li><a class="footer-link" href="tel:+38(093)4567890">Call us</a></li>
