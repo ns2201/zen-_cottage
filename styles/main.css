@@ -215,7 +215,7 @@
     margin: 40px 10px; 
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
 
     .our-offers{
         display: grid;
@@ -224,13 +224,13 @@
     }  
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 850px) {
     .our-offers{
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 650px) {
     .our-offers{
         grid-template-columns: 430px;
         margin: 30px 275px;
