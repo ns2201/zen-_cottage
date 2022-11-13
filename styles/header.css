@@ -10,7 +10,7 @@
 }
 
 .logo{
-    width: 300px;
+    max-width: 300px;
     cursor: pointer;
     text-align: center;
 }
@@ -43,11 +43,12 @@
 @media (min-width: 760px){
     .header-nav{
         display: flex;
+        flex-direction: row;
+
     }
     .nav-bar{
         flex-direction: row;
-        align-items: center;
-
-
+        justify-content: space-around;
     }
+
 }
